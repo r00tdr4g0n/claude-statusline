@@ -28,6 +28,22 @@ the right when the terminal is too narrow to fit them all; the folder always sta
 
 ## Install
 
+This repository works two ways: install it as a Claude Code plugin, or clone it
+and run the installer directly. Both set up the same status line.
+
+### Option 1 — as a plugin
+
+```
+/plugin install statusline-gauge --marketplace r00tdr4g0n/claude-statusline
+/statusline-gauge:setup
+```
+
+`/plugin install` adds the plugin (press `y` to add the marketplace, choose the
+**user** scope). `/statusline-gauge:setup` then runs the bundled installer that
+copies the script and configures `statusLine`. Restart Claude Code to see it.
+
+### Option 2 — clone and install
+
 ```
 git clone https://github.com/r00tdr4g0n/claude-statusline
 cd claude-statusline
@@ -35,10 +51,10 @@ python install.py        # Windows
 python3 install.py       # macOS / Linux
 ```
 
-The installer copies `statusline-command.py` into `~/.claude/`, backs up your
-`~/.claude/settings.json`, and sets its `statusLine` entry to run the script with
-the Python you launched it with. Restart Claude Code (or open a new session) to
-see it.
+Either way the installer copies `statusline-command.py` into `~/.claude/`, backs
+up your `~/.claude/settings.json`, and sets its `statusLine` entry to run the
+script with the Python you launched it with. Restart Claude Code (or open a new
+session) to see it.
 
 ### Manual install
 

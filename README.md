@@ -29,7 +29,7 @@ the right when the terminal is too narrow to fit them all; the folder always sta
 ## Install
 
 ```
-git clone https://github.com/<owner>/claude-statusline
+git clone https://github.com/r00tdr4g0n/claude-statusline
 cd claude-statusline
 python install.py        # Windows
 python3 install.py       # macOS / Linux

@@ -1,0 +1,11 @@
+{
+  "name": "statusline-gauge",
+  "displayName": "Statusline Gauge",
+  "version": "0.1.0",
+  "description": "A colorful 6-segment status line: folder, model, effort, context, 5h and 7d usage with gauge bars.",
+  "author": { "name": "r00tdr4g0n", "url": "https://github.com/r00tdr4g0n" },
+  "homepage": "https://github.com/r00tdr4g0n/claude-statusline",
+  "repository": "https://github.com/r00tdr4g0n/claude-statusline",
+  "license": "MIT",
+  "keywords": ["statusline", "status line", "usage", "context", "rate-limit"]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "claude-statusline",
+  "description": "r00tdr4g0n's Claude Code status line.",
+  "owner": { "name": "r00tdr4g0n" },
+  "plugins": [
+    {
+      "name": "statusline-gauge",
+      "source": "./",
+      "description": "A colorful 6-segment status line with gauge bars."
+    }
+  ]
+}

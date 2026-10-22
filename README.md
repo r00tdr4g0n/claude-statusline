@@ -2,9 +2,7 @@
 
 A compact, colorful status line for [Claude Code](https://claude.com/claude-code):
 
-```
-📁 Orange-Agent | 🤖 Opus 4.8 | 🧠 medium | 📊 ctx ████░░░░ 50% | ⏳ 5h ▍░░░░░░░ 5% | 📅 7d ██▏░░░░░ 28%
-```
+![status line](docs/statusline.png)
 
 Six segments, divided by vertical bars, each with its own 256-color accent:
 
